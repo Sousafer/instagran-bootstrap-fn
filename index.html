@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+    <title>Fernando Sousa @sousafernando</title>
+  </head>
+
+  <body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light nav-top" style="background-color:white">
+            <div class="container-fluid nav-container">
+              <a class="navbar-brand" href="https://www.instagram.com/sousafernando/" target="_blank">
+                <img src="imagens/logo.png" style="max-width:130px; max-height:80px">
+              </a>
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+              </form>
+              <div style="width: 30%;">
+              <i class="bi bi-house-door icons"></i>
+              <i class="bi bi-inbox icons"></i>
+              <i class="bi bi-compass icons"></i>
+              <i class="bi bi-heart icons"></i>
+              <img class="img-nav" src="imagens/foto-insta.jpeg">
+            </div>
+          </div>
+        </nav>
+    </header>
+    
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-0 col-md-2"></div>
+          <div class="col-12 col-md-8">
+            <div class="container">
+              <div class="row" style="padding-top: 20px;">
+                <div class="col-3">
+                  <img class="img-profile" src="imagens/foto-insta.jpeg">
+                </div>
+                  <div class="col-7">
+                    <div class="row" style="padding-top: 20px; padding-bottom: 10px;">
+                      <div class="col-8 col-lg-5">
+                        <h2 class="username">sousa.fernando</h2>
+                      </div>
+                      <div class="col-4 col-lg-6"><button type="button"
+                        class="btn btn-outline-secondary button-edit">Editar 
+                        perfil</button>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-4">
+                        <p class="profile-datas"><strong>194</strong> Publicações</p>
+                      </div>
+                      <div class="col-4">
+                        <p class="profile-datas"><strong>1250</strong> Seguidores</p>
+                      </div>
+                      <div class="col-4">
+                        <p class="profile-datas"><strong>1000</strong> Seguindo</p>
+                      </div>
+                    </div>
+                  <div class="row">
+                    <div class="col-12">
+                      <h1 class="name">Fernando Sousa</h1>
+                    </div>
+                    <div class="row">
+                      <div class="col-12">
+                        <p class="profile-desc">Arquiteto/Web-dev student</p>
+                      </div>
+                  </div>
+                </div>
+                <div class="col-2"></div>
+              </div>
+            </div>
+
+            <div style="padding-top: 0px;">
+              <div class="row">
+                  <div class="col-2"><canvas id="myCrl"></canvas></div>
+                  <div class="col-2"><canvas id="myCrl2"></canvas></div> 
+                  <div class="col-2"><canvas id="myCrl3"></canvas></div>
+              </div>
+            </div>
+            <div style="padding-bottom: 40px;">
+              <div class="row">
+                  <div class="col-2 stories">   Arquitetura</div>
+                  <div class="col-2 stories">   Viagens</div>
+                  <div class="col-2 stories">   Lisboa</div>
+              </div>
+            </div>
+
+            <hr size="3" width="100%" color="#EEEEE" style="margin:0%;">
+            
+            <ul class="nav nav-tabs nav-feed" id="myTab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <a class="nav-item nav-feed" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true"> <i class="bi bi-grid-3x3"></i> Publicacoes</a>
+              </li>
+              <li class="nav-item1 " role="presentation">
+                <a class="nav-item1 nav-feed" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false"><i class="bi bi-file-person"></i>Marcados</a>
+              </li>
+            </ul>
+
+            <div class="tab-content">
+              <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+               
+                <div class="row" style="padding-bottom: 25px;">
+                  <div class="col-4">
+                    <div class="card">
+                      <img src="imagens/post1.jpeg" class="card-ing-top" alt="...">
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="card">
+                      <img src="imagens/post2.jpeg" class="card-ing-top" alt="...">
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="card">
+                      <img src="imagens/post3.jpeg" class="card-ing-top" alt="...">
+                    </div>
+                  </div>           
+                </div>
+                
+                <div class="row" style="padding-bottom: 25px;">
+                  <div class="col-4">
+                    <div class="card">
+                      <img src="imagens/post6.jpeg" class="card-ing-top" alt="...">
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="card">
+                      <img src="imagens/post4.jpeg" class="card-ing-top" alt="...">
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="card">
+                      <img src="imagens/post5.jpeg" class="card-ing-top" alt="...">
+                    </div>
+                  </div>           
+                </div>
+
+              </div>
+              <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+            </div>
+
+          </div>
+          <div class="col-0 col-md-2"></div>
+        </div>
+      </div>
+    </section>
+     <script type="text/javascript">
+       
+       var crl = document.getElementById("myCrl").getContext("2d");
+
+       crl.beginPath();
+       crl.arc(60, 100, 40, 0, 2 * Math.PI);
+       crl.fillStyle = "#00ACC1";
+       crl.fill();
+       crl.linewidht = 5;
+       crl.strokeStyle = "#dbdbdb";
+       crl.stroke();
+     
+       
+      var crl2 = document.getElementById("myCrl2").getContext("2d");
+ 
+      crl2.beginPath();
+      crl2.arc(60, 100, 40, 0, 2 * Math.PI);
+      crl2.fillStyle = "#F88BD0";
+      crl2.fill();
+      crl2.linewidht = 5;
+      crl2.strokeStyle = "#dbdbdb";
+      crl2.stroke();
+     
+       
+      var crl3 = document.getElementById("myCrl3").getContext("2d");
+   
+      crl3.beginPath();
+      crl3.arc(60, 100, 40, 0, 2 * Math.PI);
+      crl3.fillStyle = "#E91E63";
+      crl3.fill();
+      crl3.linewidht = 5;
+      crl3.strokeStyle = "#dbdbdb";
+      crl3.stroke();
+      </script>
+  
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  </body>
+</html>
